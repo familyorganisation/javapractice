@@ -1,0 +1,9 @@
+package com.org;
+
+public class ChildWithExceptions extends Parent{
+	
+	public void method()  throws RuntimeException{
+		System.out.println(this.getClass().getSimpleName());
+	}
+
+}

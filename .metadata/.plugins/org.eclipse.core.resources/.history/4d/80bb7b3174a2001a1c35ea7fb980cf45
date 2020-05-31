@@ -1,0 +1,57 @@
+package practice;
+
+public class App {
+	
+	private String val;
+	private int number;
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + number;
+		result = prime * result + ((val == null) ? 0 : val.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		App other = (App) obj;
+		if (number != other.number)
+			return false;
+		if (val == null) {
+			if (other.val != null)
+				return false;
+		} else if (!val.equals(other.val))
+			return false;
+		return true;
+	}
+
+	public String getVal() {
+		return val;
+	}
+
+	public void setVal(String val) {
+		this.val = val;
+	}
+
+	public int getNumber() {
+		return number;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

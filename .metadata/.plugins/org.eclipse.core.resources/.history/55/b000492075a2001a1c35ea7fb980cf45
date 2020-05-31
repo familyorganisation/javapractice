@@ -1,0 +1,17 @@
+package practice;
+
+public class App implements One, Two{
+	
+	
+	public static void main(String args[]) {
+		One one = new App();
+		Two two = new App();
+	}
+
+	@Override
+	public int method() {
+
+		return 0;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.org;
+
+public class ChildWithCovarientType extends Parent{
+
+}

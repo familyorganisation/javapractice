@@ -1,0 +1,9 @@
+package com.org;
+
+public class Parent {
+	
+	public void method() {
+		System.out.println("Inside Parent");
+	}
+
+}

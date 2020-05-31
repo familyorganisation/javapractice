@@ -1,0 +1,11 @@
+package com.org;
+
+public class AbstractChild extends AbstractParent{
+
+	@Override
+	public void method() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

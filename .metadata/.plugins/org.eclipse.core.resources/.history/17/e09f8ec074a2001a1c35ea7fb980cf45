@@ -1,0 +1,12 @@
+package practice;
+
+public class App {
+	
+	public static final int val;
+	public static final int val1 = 2;
+	
+	public static void main(String args[]) {
+		check();
+	}
+
+}

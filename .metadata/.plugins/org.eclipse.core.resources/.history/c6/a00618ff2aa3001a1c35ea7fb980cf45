@@ -1,0 +1,12 @@
+package com.org;
+
+public class Parent1 {
+	
+	
+	public Parent1 method() {
+		System.out.println(this.getClass().getSimpleName());
+		
+		return new Parent1();
+	}
+
+}

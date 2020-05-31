@@ -1,0 +1,11 @@
+package com.org;
+
+import java.io.IOException;
+
+public class ChildWithExceptions extends Parent{
+	
+	public void method()  throws IOException{
+		System.out.println(this.getClass().getSimpleName());
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.org;
+
+import java.io.IOException;
+
+public class Parent {
+	
+	public void method() throws IOException{
+		System.out.println(this.getClass().getSimpleName());
+	}
+	
+	public void otherMethod() {
+		System.out.println(this.getClass().getSimpleName());
+	}
+
+}

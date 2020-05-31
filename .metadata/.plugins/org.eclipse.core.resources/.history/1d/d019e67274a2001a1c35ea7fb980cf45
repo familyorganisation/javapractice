@@ -1,0 +1,11 @@
+package practice;
+
+public class App {
+	
+	private final int val = 1;
+	private final int val1 = 2;
+	
+	public static void main(String args[]) {
+		val = val1;
+	}
+}

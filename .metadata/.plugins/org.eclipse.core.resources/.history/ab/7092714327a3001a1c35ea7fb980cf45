@@ -1,0 +1,40 @@
+package com.org;
+
+public class Runner  extends Parent{
+
+	
+	
+	public static void main(String[] args) {
+
+		try {
+			Parent parent = new Parent();
+			parent.method();
+
+			Child child = new Child();
+			child.method();
+
+			Parent parentInstance = new Child();
+			parentInstance.method();
+			parent = new ChildWithAccessModifiers();
+			parent.method();
+
+			Child childNew = new ChildWithAccessModifiers();
+			childNew.method();
+
+			parent = new ChildWithExceptions();
+			parent.method();
+			
+			parent = new ChildWithStaticFinalPrivate();
+			parent.method();
+			
+			parent = new Parent();
+			
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

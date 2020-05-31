@@ -1,0 +1,9 @@
+package practice;
+
+public class App implements One, Two{
+	
+	
+	public static void main(String args[]) {
+	}
+
+}

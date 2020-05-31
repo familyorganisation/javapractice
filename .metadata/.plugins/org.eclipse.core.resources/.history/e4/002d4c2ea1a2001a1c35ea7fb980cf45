@@ -1,0 +1,14 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Employee {
+
+	
+	List<Integer> list = new ArrayList<>();
+	
+	list.add(31);
+	
+	
+}

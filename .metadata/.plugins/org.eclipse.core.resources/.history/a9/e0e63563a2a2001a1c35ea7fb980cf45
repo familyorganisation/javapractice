@@ -1,0 +1,8 @@
+package practice;
+
+
+@Retention
+@Target
+public interface SampleAnnotation {
+
+}

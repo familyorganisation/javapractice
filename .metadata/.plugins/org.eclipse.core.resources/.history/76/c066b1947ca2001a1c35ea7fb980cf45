@@ -1,0 +1,31 @@
+package practice;
+
+public final class App implements One, Two{
+
+	
+	
+	public static void main(String args[]) {
+		One one = new App();
+		Two two = new App();
+		
+		System.out.println("From One: " + one.method(5));
+		System.out.println("From Two: " + two.method(10));
+		
+		String str1 = "One";
+		String str2 = "One";
+		String str3 = new String("One");
+		System.out.println("str1.equals(str2) is: " + str1.equals(str2));
+		System.out.println("str1.equals(str3) is: " + str1.equals(str3)) ;
+
+		if (str1==str3) {
+			System.out.println("true");
+		}
+	}
+
+	@Override
+	public int method(int val) {
+
+		return val;
+	}
+
+}

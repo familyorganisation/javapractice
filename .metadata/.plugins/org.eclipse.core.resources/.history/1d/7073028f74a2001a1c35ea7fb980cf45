@@ -1,0 +1,15 @@
+package practice;
+
+public class App {
+	
+	 final int val = 1;
+	 final int val1 = 2;
+	
+	public static void main(String args[]) {
+		check();
+	}
+
+	private static void check() {
+		
+	}
+}

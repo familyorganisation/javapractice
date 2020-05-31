@@ -1,0 +1,25 @@
+package practice;
+
+public final class App implements One, Two{
+
+	
+	
+	public static void main(String args[]) {
+		One one = new App();
+		Two two = new App();
+		
+		System.out.println("From One: " + one.method(5));
+		System.out.println("From Two: " + two.method(10));
+		
+		String str1 = "One";
+		String str2 = "One";
+		
+	}
+
+	@Override
+	public int method(int val) {
+
+		return val;
+	}
+
+}

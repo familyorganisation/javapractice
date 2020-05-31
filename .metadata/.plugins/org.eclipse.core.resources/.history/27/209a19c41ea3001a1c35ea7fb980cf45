@@ -1,0 +1,9 @@
+package com.org;
+
+public class ChildWithAccessModifiers extends Parent{
+	
+	private void method() {
+		System.out.println("Inside Child method of ChildWithAccessModifiers");
+	}
+
+}

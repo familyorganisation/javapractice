@@ -1,0 +1,10 @@
+package com.org;
+
+public class AbstractChild extends AbstractParent{
+
+	@Override
+	public abstract void method() {
+		System.out.println(this.getClass().getSimpleName());
+	}
+
+}

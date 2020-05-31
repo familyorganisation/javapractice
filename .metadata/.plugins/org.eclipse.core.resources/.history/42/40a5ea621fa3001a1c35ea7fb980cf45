@@ -1,0 +1,13 @@
+package com.org;
+
+public class Parent {
+	
+	protected void method() {
+		System.out.println(this.getClass().getSimpleName());
+	}
+	
+	public void otherMethod() {
+		System.out.println("Inside Other method");
+	}
+
+}

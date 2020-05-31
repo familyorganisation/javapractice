@@ -1,0 +1,13 @@
+package practice;
+
+public class App {
+	
+	private String val;
+	private int number;
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
